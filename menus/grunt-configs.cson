@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.workspace':
+    'Generate Grunt configs': 'grunt-configs:selectType'
+
+'menu': [
+    {
+      'label': 'Packages'
+      'submenu': [
+        'label': 'Generate Grunt configs'
+        'submenu': [
+          { 'label': 'json', 'command': 'grunt-configs:generate' }
+        ]
+      ]
+    }
+]
