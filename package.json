@@ -1,7 +1,7 @@
 {
   "name": "atom-grunt-configs",
   "main": "./lib/grunt-configs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom.io plugin to auto-generate separate grunt configuration files from your `Gruntfile.js`.",
   "repository": "https://github.com/creynders/atom-grunt-configs",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "grunt-generate-configs": "~0.5.2",
     "atom-message-panel": "^1.0.0"
   },
-  "keywords" : [
+  "keywords": [
     "atom",
     "grunt",
     "gruntfile",
